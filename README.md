@@ -1,33 +1,82 @@
-# 🧠 GenVox: AI-Powered Voice Assistant
+<h1 align="center">🧠 GenVox</h1>
+<h3 align="center">🎙️ A Voice-Activated Multimodal Generative AI Companion 🎨🔊</h3>
 
-![GenVox Banner](https://img.shields.io/badge/AI-Powered-blueviolet?style=flat&logo=python)  
-GenVox a voice-activated multimodal generative Al companion could combine the latest advancements in natural language processing, image generation, and audio synthesis to deliver a highly interactive and versatile experience and it is a virtual Al companion that interacts seamlessly with users through voice commands and produces outputs in multiple formats, such as text, images and audio. It could serve as a personal assistant, creative collaborator, or learning partner, leveraging generative Al to adapt to the user's needs.
-
-The project includes core features like voice-controlled text generation like storytelling, content creation, Q&A, and summarization via voice commands. Image creation via voice prompts like generate art, illustrations, or designs based on spoken descriptions. Audio Synthesis content.
-
-Interactive Cross-Modal Content Creation Combine models based on vocal input, such as describing a text, image and ete. By using the technologies like large language models (LLM's) for the content creation and gTTs enterprise for the text to speech conversion, pyttxx3 for the natural language processing, python 3.0 for the project development and python Kivy for android development, API keys of Together ai, hugging face for using of prebuilt generative models. This project would let users activate and interact with various generative Al models through natural voice commands, making content creation intuitive and accessible.
-
----
-
-## ✨ Features
-
-- 🎙️ **Voice Activation** – Just speak, and GenVox listens and responds.
-- 🕓 **Real-time Commands** – Perform tasks like opening applications or searching the web.
-- 💬 **Natural Language Processing** – Understands basic conversational language.
-- 🌐 **Internet Integration** – Search Google, YouTube, Wikipedia directly via voice.
-- 📁 **Lightweight GUI** – Built using Kivy for a simple and intuitive interface.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.0-blue?logo=python&style=flat-square" />
+  <img src="https://img.shields.io/badge/Kivy-GUI-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/TogetherAI-API-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/HuggingFace-Models-yellow?style=flat-square" />
+</p>
 
 ---
 
-## ⚙️ Requirements
+## 📖 About the Project
 
-Install these before running the project:
+**GenVox** is a voice-activated **multimodal generative AI companion** that seamlessly integrates:
+
+- 🧠 Natural language understanding  
+- 🎨 Image generation  
+- 🔊 Audio synthesis  
+
+This powerful assistant enables users to **create, ask, and interact** using **just their voice**, delivering outputs in multiple formats:  
+**Text**, **Image**, and **Audio**.
+
+Use GenVox as a:
+
+- 🧑‍💼 Personal Assistant  
+- 🎨 Creative Collaborator  
+- 🎓 Learning Partner  
+
+It combines the best of LLMs (like **Llama 3**), **gTTS**, and generative APIs from **Together.ai** and **Hugging Face** to make AI content creation **intuitive and voice-driven**.
+
+---
+
+## ✨ Core Features
+
+✅ **Voice-to-Text Generation** – Stories, summaries, Q&A, blog writing  
+✅ **Voice-to-Image Creation** – Create art and illustrations from spoken prompts  
+✅ **Voice-to-Audio Conversion** – Speak content using natural TTS engines  
+✅ **Cross-Modal AI** – Blend voice, text, image, and audio generation in real-time  
+✅ **Hands-free Commanding** – No typing needed!
+
+---
+
+## 🖼️ Preview
+
+| 🏠 Home Screen | 🎧 Voice Listening |
+|---------------|-------------------|
+| ![UI](https://via.placeholder.com/300x200.png?text=Main+Screen) | ![Listening](https://via.placeholder.com/300x200.png?text=Voice+Mode) |
+
+---
+
+## ⚙️ Technologies Used
+
+| Tool | Use |
+|------|-----|
+| 🐍 Python 3.0 | Backend Development |
+| 🎛️ Kivy / KivyMD | GUI (Desktop & Android) |
+| 🧠 Llama-3.0-Turbo | Text generation |
+| 🗣️ SpeechRecognition | Voice Input |
+| 🔊 gTTS / pyttsx3 | Text-to-Speech |
+| 🎨 Hugging Face APIs | Image Generation |
+| ☁️ Together.ai | LLM APIs |
+| 🗃️ PyMongo | Data Storage (Optional) |
+
+---
+
+## 🛠️ Getting Started
 
 ```bash
-pip install kivy
-pip install SpeechRecognition
-pip install pyttsx3
-pip install pyaudio
-pip install pywhatkit
-pip install wikipedia
-pip install datetime
+# 1. Clone the repository
+git clone https://github.com/manikantaa1/Genvox.git
+cd Genvox
+
+# 2. (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the application
+python main.py
