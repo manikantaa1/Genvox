@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Admin",
+    "email": "admin@genvox.com",
+    "password": "admin123", 
+    "role": "admin",
+    "token": "SECRET_ADMIN_TOKEN"
+  },
+  {
+    "name": "SuperAdmin",
+    "email": "superadmin@genvox.com",
+    "password": "superadmin123",
+    "role": "admin",
+    "token": "SUPER_SECRET_TOKEN"
+  }
+]

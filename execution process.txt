@@ -1,0 +1,5 @@
+1.Open terminal or command prompt.
+2.Navigate to the project folder using “cd your_project_folder_name”
+3.Install the required packages like the kivy, kivymd, screenManager, pymongo, SpeechRecognizer, pysxtt3, Together, and the remaining required.
+4.now run the main.py file by opening the terminal and run the following command
+          " python main.py"
